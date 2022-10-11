@@ -1,0 +1,22 @@
+@import 'scss/reset';
+@import 'scss/base';
+
+body {
+  padding: 32px;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+  background: #04598C;
+
+  h1 {
+    font-size: calc(54vw * 100 / 1440);
+    color: #fff;
+  }
+}
